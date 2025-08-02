@@ -61,6 +61,8 @@ footer {
     transform: scale(1.1);
     box-shadow: 0 0 15px #fff;
     z-index: 1;
+    background-color: #00BFFF;
+  color: white;
 }
 
 .container {
@@ -149,7 +151,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     grid-area: 1rem;
-    justify-content: space-between;
+    justify-content: space-around;
       min-height: 300px;
 }
 
@@ -228,6 +230,30 @@ ul {
 
 .call-button:hover {
   background-color: #005fa3;
+}
+
+
+/* floating bestill button*/
+.floating-button {
+     position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      padding: 1rem 1.5rem;
+      background-color: #F4C542;
+      color: #555555;
+      border: none;
+      border-radius: 50px;
+      font-size: 1rem;
+      cursor: pointer;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease, background-color 0.3s ease;
+      z-index: 999;
+}
+
+.floating-button:hover {
+  transform: scale(1.1) translateY(-5px);
+  background-color: #00BFFF;
+  color: white;
 }
 
 
