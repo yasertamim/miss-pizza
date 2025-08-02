@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+
+
+    
+
+
+   .card-m{
+        width: 100%;
+    }
+
+
+    .menu-options{
+      flex-direction: column;
+    }
+
+    .info{
+      
+        grid-template-columns: 1fr;
+       
+}
+
+
+}
