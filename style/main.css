@@ -1,6 +1,12 @@
 
+
+ 
  html{
   scroll-behavior: smooth;
+      overflow-x: hidden;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
  }
  body {
        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -10,6 +16,8 @@
       line-height: 1.6;
       background: white;
       color: #555555 ;
+      overflow-x: hidden;
+      max-width: 100%;
 }
 a{
   text-decoration: none;
@@ -248,6 +256,9 @@ ul {
       box-shadow: 0 10px 20px rgba(0,0,0,0.2);
       transition: transform 0.2s ease, background-color 0.3s ease;
       z-index: 999;
+
+      max-width: calc(100vw - 40px);
+    box-sizing: border-box;
 }
 
 .floating-button:hover {
