@@ -267,4 +267,18 @@ ul {
   color: white;
 }
 
+.meny-img{
+  width: 300px;
+  margin-left: auto;
+  margin-right: 24px;
+}
+
+
+.menu-header{
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  align-items: anchor-center;
+}
 

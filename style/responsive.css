@@ -17,6 +17,15 @@
        
 }
 
+.menu-header{
 
+  grid-template-columns: 1fr;
+
+
+}
+.meny-img{
+
+  width: 100%;
+}
 
 }
