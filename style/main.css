@@ -14,7 +14,7 @@
       padding: 0;
       font-size: 18px;
       line-height: 1.6;
-      background: white;
+      background: rgb(255, 255, 255);
       color: #555555 ;
       overflow-x: hidden;
       max-width: 100%;
@@ -35,11 +35,15 @@ a{
 }
 
 header {
-    text-align: center;
-    padding: 2rem 1rem;
-
-    
-    position: relative;
+   display: flex;
+    max-width: 1300px;
+    margin: auto;
+    color: #333;
+}
+.header-text{
+  text-align: start;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 footer {
@@ -74,7 +78,7 @@ footer {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     padding: 2rem 1rem;
 }

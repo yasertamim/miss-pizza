@@ -1,7 +1,12 @@
 @media (max-width: 768px) {
 
+header{
+  flex-direction: column;
 
-
+}
+.header-text{
+  text-align: center;
+}
    .card-m{
         width: 100%;
     }
