@@ -45,7 +45,14 @@ header {
   margin-top: auto;
   margin-bottom: auto;
 }
-
+.price-str{
+  display: flex;
+  flex-direction: row;
+}
+.price-str p {
+    margin: 0;
+    margin-left: auto;
+}
 footer {
 
     padding: 2rem 1rem;
